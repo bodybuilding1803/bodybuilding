@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>login2</title>
+    <link rel="stylesheet" href="css/login2.css">
+    <script src="js/rem.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/login2.js"></script>
+</head>
+<body>
+<div class="head">
+    <img src="img/head.png" alt=""style="width: 100%;position: fixed;top: 0">
+    <div class="headPortrait"></div>
+</div>
+<div class="border"></div>
+<div class="main">
+    <p style="font-size: 0.4rem;font-weight: bold;color: #fff;margin-top: 24%;text-align: center">EXPEDITE</p>
+    <form enctype="application/x-www-form-urlencoded">
+        <div class="form-group" >
+            <label for="exampleInputEmail1" ></label>
+            <img  class="phone"  src="img/phone.png" alt="" style="width: 0.82rem;height: 0.82rem;
+            position: absolute;top: 72%;left: 8%">
+            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="+86 请输入您的手机号" name="user" style="margin-left: 20%">
+            <div class="validation"></div>
+        </div>
+        <div class="form-group" style="   margin-top: 0.5rem;">
+            <label for="exampleInputPassword1"></label>
+            <img src="img/suozi.png" alt="" style="position: absolute;top:98%;left:10.6%;width: 0.4rem;height:auto">
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="请输入您的验证码" name="pass" style="margin-left: 20%;">
+            <div class="validation"></div>
+        </div>
+        <button type="submit" class="btn btn-default">立即登录</button>
+        <div class="forget">
+            <a href="" style=""><div class="left">
+                <img src="img/why.png" alt="" style="width: 0.6rem;height: 0.6rem">忘记密码
+            </div>
+            </a>
+            <a href="" style="">
+                <div class="right" style="position: relative" >
+                    <img src="img/yellow.png" alt="" style="position: absolute;top: 0.06rem;right: 1.3rem;width: 0.4rem;height:auto" >成为新用户
+                </div>
+            </a>
+        </div>
+        <div class="three">
+            <div class="left"></div>
+            <div class="mid">请使用三方登录</div>
+            <div class="right"></div>
+        </div>
+        <div class="bottom">
+            <a href=""><img src="img/wechat.png" alt="" style="width: 0.86rem;height: 0.86rem"></a>
+            <a href=""><img src="img/qq.png" alt="" style="width: 0.86rem;height: 0.86rem"></a>
+        </div>
+
+    </form>
+</div>
+</body>
+</html>
