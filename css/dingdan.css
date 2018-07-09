@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+html>body{
+    background: #0e111d;
+}
+.head{
+    width: calc(100% - 0.48rem);
+    height: 0.88rem;
+    margin: 0.4rem 0.24rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head .fan{
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background: #252832;
+    position: relative;
+}
+.head .fan .iconfont{
+    font-size: 0.24rem;
+    color: #FFFFFF;
+    font-weight: 900;
+    position: absolute;
+    top:0.06rem;
+    left:0.1rem;
+}
+.head span{
+    font-size: 0.3rem;
+    color: #FFFFFF;
+    line-height: 0.88rem;
+}
+.main{
+    width: calc(100% - 0.48rem);
+    height: 2.80rem;
+    margin: 0 0.24rem;
+}
+.main .ti{
+    width: 100%;
+    height: 0.92rem;
+    overflow: hidden;
+}
+.main .ti h1{
+    font-size: 0.28rem;
+    color:#FFFFFF;
+    line-height: 0.92rem;
+    float: left;
+}
+.main .ti h2{
+    font-size: 0.28rem;
+    color: #ffcd42;
+    line-height: 0.92rem;
+    float: left;
+    margin-left: 0.12rem;
+}
+.main .ti .yuan{
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    margin: 0.43rem 0.06rem;
+    background: #ffcd42;
+    float: left;
+}
+.main .ti .yuan:nth-child(4){
+    background: #6d5c2b;
+    margin-left: 0.02rem;
+}
+.main .ti .yuan:nth-child(5){
+    background: #443c25;
+    margin-left: 0.02rem;
+}
+.main .he{
+    width: 100%;
+    height: calc(100% - 0.92rem);
+    overflow: hidden;
+}
+.main .he .box{
+    width: 2.20rem;
+    height: 0.6rem;
+    border-radius: 0.15rem;
+    float: left;
+    margin-right: 0.14rem;
+    background: #3d4148;
+    overflow: hidden;
+    margin-top: 0.24rem;
+}
+.main .he .box:nth-child(1){
+    background: #41b2fc;
+}
+.main .he .box:nth-child(4){
+
+
+}
+.main .he .box .huang{
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #e3b943;
+    float: left;
+    margin-left: 0.3rem;
+    margin-top: 0.27rem;
+    box-shadow: 0 0 0.2rem #706745;
+}
+.main .he .box span{
+    font-size: 0.2rem;
+    color: #ffffff;
+    line-height: 0.6rem;
+    float: left;
+    margin-left: 0.15rem;
+}
+.main .he .box pre{
+    font-size: 0.2rem;
+    color: #ffffff;
+    line-height: 0.6rem;
+    float: left;
+    margin-left: 0.15rem;
+    font-family: sans-serif;
+}
+.ding{
+    width: 3.55rem ;
+    height: 0.65rem;
+    background: #3786fd;
+    margin: 0 auto;
+    border-radius: 0.3rem;
+    font-size: 0.24rem;
+    color: #FFFFFF;
+    line-height: 0.65rem;
+    text-align: center;
+}

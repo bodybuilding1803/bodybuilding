@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html , body{
+    width:100%;
+    height: 100%;
+    background: rgb(13,16,28);
+}
+.headar{
+    width: 100%;
+    height: 0.54rem;
+}
+.box{
+    width: 100%;
+    height:1.39rem;
+    padding: 0 0.28rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.box .tu{
+    width: 0.93rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.box .yuan{
+    width: 0.93rem;
+    height: 0.93rem;
+    background-image: url(../img/zhan.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.box .zi{
+    width: 1.33rem;
+    margin-right: 3rem;
+    margin-left: 0.24rem;
+}
+.box .zi h6{
+    text-align: center;
+    font-size: 0.26rem;
+    color: rgba(255,255,255,0.7);
+}
+.box .zi a{
+    width: 1.33rem;
+    display: block;
+    height: 0.42rem;
+    border-radius:0.21rem;
+    margin-top: 0.07rem;
+    background:rgb(18,35,51);
+    font-size: 0.22rem;
+    color: rgba(255,255,255,0.7);
+    text-align: center;
+    line-height: 0.42rem;
+    letter-spacing: 0.01rem;
+}
+.box .zhiye h6{
+    text-align: center;
+    font-size: 0.26rem;
+    color: rgba(255,255,255,0.7);
+}
+.zhong{
+    width: 100%;
+}
+.zhong .tu{
+    width: 100%;
+    height: 3.91rem;
+    margin-top: 0.42rem;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.zhong .tu .tu1{
+    width: 3.91rem;
+    height: 3.91rem;
+    background-image: url("../img/kalu.png");
+    background-size: 100% 100%;
+    animation: rotate  8s linear infinite ;
+}
+@keyframes rotate  {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+.zhong .tu .zi{
+    width: 1.78rem;
+    height: 0.74rem;
+    position: absolute;
+    top: 40%;
+    z-index: 999;
+}
+.zhong .tu .zi .kalu{
+    width: 100%;
+    height: 0.21rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.zhong .tu .zi .kalu .yuan{
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #ffffff;
+}
+.zhong .tu .zi .kalu h6{
+    font-size: 0.22rem;
+    color: #ffffff;
+    font-weight: 500;
+}
+.zhong .tu .zi .kcal{
+    width: 100%;
+    height: 0.37rem;
+    margin-top: 0.16rem;
+    text-align: center;
+    line-height: 0.37rem;
+}
+.zhong .tu .zi .kcal h6{
+    font-size: 0.5rem;
+    color:#ffffff;
+    font-weight: 500;
+
+}
+.zhong .tu .zi .kcal h6 span{
+    font-size: 0.5rem;
+    color:rgb(255,197,40);
+}
+.zhong .nr{
+    margin-top: 0.38rem;
+    width: 100%;
+    height: 0.24rem;
+    display: flex;
+    justify-content: space-between;
+}
+.zhong .nr .paobu{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zhong .nr .paobu .nei{
+    width: 1.62rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zhong .nr .paobu .nei .tubiao{
+    width: 0.12rem;
+    height: 0.12rem;
+    background-image: url("../img/zheng.png");
+    background-size: 100% 100%;
+}
+.zhong .nr .paobu .nei span{
+    font-size: 0.24rem;
+    color: #ffffff;
+}
+.zhong .nr .paobu .nei p{
+    font-size: 0.24rem;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+.xqk{
+    width: 100%;
+    margin-top: 0.46rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.xqk .dd{
+    width: 100%;
+    height: 0.93rem;
+    border-bottom: 0.02rem solid rgba(255,255,255,0.05);
+}
+.xqk .dd a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.xqk .dd a .tu{
+    width: 0.45rem;
+    height: 0.45rem;
+    margin-right: 0.15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.xqk .dd a h6{
+   font-size: 0.26rem;
+   color: rgba(255,255,255,0.7);
+    letter-spacing: 0.02rem;
+    font-weight: 600;
+}
+.xqk .dd1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.xqk .dd1 .san{
+    width: 0.47rem;
+    height: 0.28rem;
+    background: rgb(179,78,221);
+    border-radius:0.14rem ;
+    text-align: center;
+    line-height: 0.28rem;
+    font-size: 0.22rem;
+    color: #ffffff;
+}
+.dibu{
+    width: 100%;
+    height: 0.98rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: rgb(25,31,55);
+    display: flex;
+    justify-content: space-between;
+}
+.dibu .kuai{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.dibu .kuai p{
+    width: 0.3rem;
+    height: 0.3rem;
+    background: red;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.3rem;
+    font-size: 0.2rem;
+    color: #ffffff;
+    position: absolute;
+    top: 0.15rem;
+    right: 0.5rem;
+}
+.dibu .kuai .yuan{
+    width: 0.14rem;
+    height: 0.14rem;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    top:0.22rem ;
+    right:0.71rem ;
+}

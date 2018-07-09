@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background:#0d101c ;
+    overflow: hidden;
+}
+.nxr-header{
+    width: 100%;
+    height: .88rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nxr-header .nxr-left{
+    width: .38rem;
+    height: .38rem;
+    border-radius: .19rem;
+    background: #262833;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#yjt{
+    width: 0.14rem;
+    height: 0.23rem;
+}
+
+.main{
+    width: 100%;
+    height: auto;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.main .box{
+    width: 100%;
+    height:0.94rem ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main .box .Lbox{
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .box .Lbox .zbox{
+    width: 0.28rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.main .box .Lbox .zbox .zyuan{
+    width:0.08rem ;
+    height:0.08rem ;
+    border-radius: 50%;
+    background:#ffc528 ;
+}
+.main .box .Lbox .zbox .yyuan{
+    width:0.08rem ;
+    height:0.08rem ;
+    border-radius: 50%;
+    background:#ff2c70 ;
+}
+.main .box .Lbox .ybox{
+    margin-left: 0.06rem;
+    font-size: 0.24rem;
+    color: #b7b8bb;
+}
+.main .box .Rbox{
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.main .box .Rbox .zbox{
+    color: #999999;
+    font-size: 0.26rem;
+
+}
+.main .box .Rbox .ybox{
+    font-size: 0.46rem;
+    font-weight: 600;
+}
+.main .box .Rbox .ybox span{
+    background: linear-gradient(to bottom,#e01dba, #9131b5);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.nxr-header .nxr-left i{
+    color: #ffffff;
+}
+.nxr-header .nxr-center{
+    font-size: 0.3rem;
+    color: #ffffff;
+}
+ .recognition {
+    width: 100%;
+    height: 100%;
+    color: #a0a0a0;
+    padding-top: 2rem;
+  }
+
+  video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+  }
+
+  canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+  }
+
+  .recognition .recBox {
+    width: 4rem;
+    height: 5rem;
+    background: #f6f6f6;
+    border: 0.03rem dashed #d2d2d2;
+    margin: 0 auto 1.5rem;
+    position: relative;
+  }
+
+
+  .recognition .text {
+    text-align: center;
+    font-size: 0.24rem;
+    margin-top: 0.53rem;
+    margin-bottom: 1.33rem;
+  }
+
+  .recognition .copyright {
+    width: 100%;
+    text-align: center;
+    font-size: 0.14rem;
+    position: absolute;
+    left: 0;
+    bottom: 0.53rem;
+  }
+
+  .recognition .dotBox {
+    width: 1.1rem;
+    height: 0.16rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .recognition .dotBox .dot {
+    width: 0.16rem;
+    height: 0.16rem;
+    border-radius: 50%;
+    background: #5ea6ff;
+  }
+
+  .recognition .dotBox .dot1 {
+    animation: change 1.5s 0.2s infinite alternate;
+  }
+
+  .recognition .dotBox .dot2 {
+    animation: change 1.5s 0.4s infinite alternate;
+  }
+
+  .recognition .dotBox .dot3 {
+    animation: change 1.5s 0.6s infinite alternate;
+  }
+
+  .recognition .dotBox .dot4 {
+    animation: change 1.5s 0.8s infinite alternate;
+  }
+
+  .recognition .dotBox .dot5 {
+    animation: change 1.5s 1s infinite alternate;
+  }
+
+  @keyframes change {
+    0% {
+      background: #5ea6ff;
+    }
+    50% {
+      background: #1e7df1;
+    }
+    100% {
+      background: #0364da;
+    }
+  }

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>脸部识别</title>
+
+    <link rel="stylesheet" href="css/face.css">
+    <script src="common/js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="common/js/rem.js"></script>
+    <script src="js/face.js"></script>
+</head>
+<body>
+<header class="nxr-header">
+    <a href="javascript:history.back()" style="-webkit-tap-highlight-color:rgba(0,0,0,0);"><div class="nxr-left">
+        <img src="img/yj.png" alt="" id="yjt">
+    </div></a>
+    <div class="nxr-center">脸部识别</div>
+    <div class="nxr-right" style="width: .38rem;height: .38rem"></div>
+</header>
+<div class="main">
+    <div class="box">
+        <div class="Lbox">
+            <div class="zbox">
+                <div class="zyuan"></div>
+                <div class="yyuan"></div>
+            </div>
+            <div class="ybox">
+                <span>确认本次支付的金额</span>
+            </div>
+        </div>
+        <div class="Rbox">
+            <div class="zbox">
+                <span>RMB.</span>
+            </div>
+            <div class="ybox">
+                <span>389.00</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="recognition">
+    <div class="recBox">
+        <video src=""  width="100%" height="100%" autoplay id='video'></video>
+        <canvas id='canvas'></canvas>
+    </div>
+    <div class="dotBox">
+        <div class="dot dot1"></div>
+        <div class="dot dot2"></div>
+        <div class="dot dot3"></div>
+        <div class="dot dot4"></div>
+        <div class="dot dot5"></div>
+    </div>
+    <div class="text">正脸对准屏幕</div>
+</div>
+
+</body>
+</html>
