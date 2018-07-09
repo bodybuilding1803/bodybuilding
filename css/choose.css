@@ -1,0 +1,91 @@
+body{
+    background-color: #0d101c;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 0.88rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+header .fanhui{
+    width: 0.38rem;
+    height: 0.38rem;
+    float: left;
+}
+.title{
+    width: 100%;
+    height: auto;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    margin-top: 0.46rem;
+}
+.title p{
+    font-size: 0.6rem;
+    /*color: #dd32bb;*/
+    background: linear-gradient(to right, #dd32bb,#b932b8);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.title .fuhe{
+    background: linear-gradient(to right, #dd32bb,#8d31b4);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.desc{
+    width: 100%;
+    height: 1.17rem;
+    margin-top: 0.26rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.desc img{
+    width: 0.19rem;
+    height: 0.08rem;
+    float: left;
+}
+.desc p{
+    width: 100%;
+    font-size: 0.24rem;
+    color: #78797d;
+    float: left;
+    margin-top: 0.15rem;
+}
+ul{
+    width: 100%;
+    height: auto;
+    padding: 0 0.24rem;
+    margin-top: 0.3rem;
+}
+ul li{
+    width: auto;
+    height: 0.6rem;
+    border-radius: 0.1rem;
+    background-color: #3d4049;
+
+    display: flex;
+    align-items: center;
+    float: left;
+    padding: 0.2rem;
+    box-sizing: border-box;
+    margin-right: 0.24rem;
+    margin-bottom: 0.27rem;
+}
+ul li img{
+    width: 0.12rem;
+    height: 0.12rem;
+    background-size: cover;
+    float: left;
+    margin-right: 0.07rem;
+
+}
+ul li p{
+    font-size: 0.24rem;
+    color: #d1dfff;
+    float: left;
+}
+.hot{
+    background-color: #3786fe;
+}
